@@ -146,7 +146,11 @@ console.log(ucebolunenlerintoplami);
 
 // 3d çözümü
 
-/* kodlar buraya */
+// 3d çözümü
+
+besyuzdenkucuksayilar = sayilar.filter(function(sayi) {
+  return sayi < 500;
+});
 
 // 3e çözümü
 
