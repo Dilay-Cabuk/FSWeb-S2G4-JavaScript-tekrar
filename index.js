@@ -162,7 +162,25 @@ siralisayilar = [...besyuzdenkucuksayilar].sort(function(a, b) {
 
 // 3f çözümü
 
-/* kodlar buraya */
+// 3f çözümü
+
+const sayac = {};
+
+sayilar.forEach(function(sayi) {
+  sayac[sayi] = (sayac[sayi] || 0) + 1;
+});
+
+tekraredensayilar = [];
+
+for (const sayi in sayac) {
+  if (sayac[sayi] > 1) {
+    tekraredensayilar.push(
+      `${sayi} sayısı ${sayac[sayi]} kere tekrar edilmiştir`
+    );
+  }
+}
+
+console.log(tekraredensayilar);
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
