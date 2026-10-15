@@ -154,7 +154,11 @@ besyuzdenkucuksayilar = sayilar.filter(function(sayi) {
 
 // 3e çözümü
 
-/* kodlar buraya */
+// 3e çözümü
+
+siralisayilar = [...besyuzdenkucuksayilar].sort(function(a, b) {
+  return a - b;
+});
 
 // 3f çözümü
 
