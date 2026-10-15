@@ -104,12 +104,23 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-/* kodlar buraya */
+enbuyuk = sayilar[0];
+enkucuk = sayilar[0];
 
-// 3b çözümü:
+enbuyuk = sayilar[0];
+enkucuk = sayilar[0];
 
-/* kodlar buraya */
+for (let i = 0; i < sayilar.length; i++) {
+  if (sayilar[i] > enbuyuk) {
+    enbuyuk = sayilar[i];
+  }
 
+  if (sayilar[i] < enkucuk) {
+    enkucuk = sayilar[i];
+  }
+}
+console.log("En büyük:", enbuyuk);
+console.log("En küçük:", enkucuk);
 // 3c çözümü:
 
 /* kodlar buraya */
