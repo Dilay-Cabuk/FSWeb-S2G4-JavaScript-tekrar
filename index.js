@@ -121,6 +121,20 @@ for (let i = 0; i < sayilar.length; i++) {
 }
 console.log("En büyük:", enbuyuk);
 console.log("En küçük:", enkucuk);
+
+
+// 3b çözümü:
+
+ucetambolunenler = [];
+
+sayilar.forEach(function(sayi) {
+  if (sayi % 3 === 0) {
+    ucetambolunenler.push(sayi);
+  }
+});
+
+
+
 // 3c çözümü:
 
 /* kodlar buraya */
