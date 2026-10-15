@@ -134,10 +134,15 @@ sayilar.forEach(function(sayi) {
 });
 
 
+// 3c çözümü:
 
 // 3c çözümü:
 
-/* kodlar buraya */
+ucebolunenlerintoplami = ucetambolunenler.reduce(function(toplam, sayi) {
+  return toplam + sayi;
+}, 0);
+
+console.log(ucebolunenlerintoplami);
 
 // 3d çözümü
 
